@@ -1,0 +1,88 @@
+/* App.css */
+
+/* Reset default margins and padding */
+/* App.css */
+
+body, html {
+  margin: 0;
+  padding: 0;
+}
+
+.app-background {
+  background-image: url('./background.jpg');
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  /* Add additional styling properties as needed */
+}
+
+
+/* App container */
+.App {
+  
+  font-family: Arial, sans-serif;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Header Styles */
+header {
+  background-color: #dbf39a;
+  padding: 20px;
+  text-align: center;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+header h1 {
+  margin-bottom: 5px;
+}
+
+/* Profile info */
+.profile-info {
+  display: flex;
+  align-items: center;
+}
+
+.profile-pic {
+  width: 110px; /* Adjust size as needed */
+  height: 130px; /* Adjust size as needed */
+  border-radius: 50%; /* Make the image circular */
+  margin-left: 20px;
+}
+
+.profile-details {
+  flex: 10; /* Take up remaining space */
+}
+
+/* Section Styles */
+section {
+  background-color: #fb9cdd;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+section h2 {
+  margin-bottom: 10px;
+  color: #060606;
+}
+
+section p {
+  margin-bottom: 10px;
+}
+
+section ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+section ul li {
+  margin-bottom: 5px;
+}
+
+a {
+  color: blue;
+}
